@@ -10,6 +10,16 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Eclipse / STS
+**/.classpath
+**/.project
+**/.settings/
+**/.factorypath
+
 # Package Files #
 *.jar
 *.war
@@ -18,8 +28,6 @@
 *.zip
 *.tar.gz
 *.rar
-*.classpath
-**/.setting/
 */target
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
